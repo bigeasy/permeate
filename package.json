@@ -1,0 +1,34 @@
+{
+    "name":         "permeate",
+    "version":      "9.9.9",
+    "description":  "Insert namespaced hooks deep into error-frist callback code for testing.",
+    "author":       "Alan Gutierrez <alan@prettyrobots.com>",
+    "homepage":     "https://gihutb.com/bigeasy/permeate",
+    "bugs":         "https://github.com/bigeasy/permeate/issues",
+    "keywords":
+    [
+                    "permeate", "cadence", "evented", "debugging"
+    ],
+    "contributors":
+    [
+    ],
+    "dependencies":
+    {
+                    "operation": "0.0.3"
+    },
+    "devDependencies":
+    {
+                    "proof": "0.0.56"
+    },
+    "main":         "permeate.js",
+    "scripts":
+    {
+                    "test": "proof platform win32 && proof test */*/*.t.js || t/test"
+    },
+    "license":      "MIT",
+    "repository":
+    {
+                    "type": "git",
+                    "url": "http://github.com/bigeasy/permeate.git"
+    }
+}
